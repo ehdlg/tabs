@@ -1,0 +1,130 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width: min(100% - 3rem, 40%);
+  min-height: 450px;
+
+  border: 3px solid #333;
+  border-radius: 2rem;
+
+  margin-top: 100px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+
+  margin: 20px 0px;
+  padding: 2rem;
+  width: 100%;
+
+  list-style: none;
+}
+
+.tab-list li {
+  border-bottom: 3px solid transparent;
+
+  width: 20%;
+}
+
+.selected-tab {
+  color: red;
+}
+
+.tab-list button {
+  color: #555;
+  text-align: center;
+
+  background: none;
+
+  outline: none;
+
+  border: none;
+
+  text-wrap: nowrap;
+
+  padding: 0.5rem 0;
+
+  font-size: 1.75rem;
+
+  cursor: pointer;
+
+  width: 100%;
+
+  transition: ease-in 0.3s;
+}
+
+ul > li:hover {
+  border-color: #555;
+
+  transition: ease-in 0.15s;
+}
+
+ul > li.selected-tab {
+  border-color: #222;
+}
+
+ul > li.selected-tab:hover {
+  border-color: #222;
+}
+
+li.selected-tab button {
+  color: #000;
+}
+
+section {
+  height: 100%;
+  transition: ease-in 0.2s;
+}
+
+.tab-content > article {
+  display: none;
+
+  font-size: 1.5rem;
+
+  margin-inline: 2.5rem;
+
+  color: #333;
+}
+
+article.selected-article {
+  display: block;
+
+  color: #333;
+}
+
+.tab-content {
+  opacity: 1;
+
+  height: 100%;
+
+  line-height: 200%;
+
+  font-size: 1.25rem;
+
+  width: 95%;
+
+  margin-inline: auto;
+
+  transition: ease-in 0.5s;
+}
+
+.tab-content.faded {
+  opacity: 0;
+}
