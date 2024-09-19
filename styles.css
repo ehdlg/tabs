@@ -31,7 +31,6 @@ main {
   justify-content: space-around;
 
   margin: 15px 0px;
-  padding: 2rem;
   width: 100%;
 
   list-style: none;
@@ -99,6 +98,7 @@ li.selected-tab button {
 }
 
 section {
+  padding: 1rem;
   height: 100%;
   transition: ease-in 0.2s;
 }
@@ -107,8 +107,6 @@ section {
   display: none;
 
   font-size: 1.5rem;
-
-  margin-inline: 2.5rem;
 
   color: #333;
 }
