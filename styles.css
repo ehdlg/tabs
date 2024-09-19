@@ -41,6 +41,8 @@ ul {
   border-bottom: 3px solid transparent;
 
   width: 20%;
+
+  transition: ease-in 0.3s;
 }
 
 .selected-tab {
