@@ -6,6 +6,10 @@ The page consists of four tabs, with the first tab being active by default. When
 
 It is part of one of the frontend projects from [roadmap.sh](https://roadmap.sh/projects/simple-tabs).
 
+## Live preview
+
+You can check the project [here](https://ehdlg.github.io/tabs/)
+
 ## Objectives
 
 The purpose of this project was to revisit DOM manipulation and JavaScript without relying on frameworks, as I hadn't practiced it in a while. Despite being a simple project, it helped me rfresh some fundamental concepts of HTML, JavaScript and CSS.
